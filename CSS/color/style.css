@@ -1,0 +1,24 @@
+h1 {
+    color: #ff0000;
+}
+
+p {
+    color: rgb(255, 0, 0, 0.5);
+}
+
+/* 
+    A propriedade color serve para alterar a cor do texto e você vai ver ela sendo trabalhada em alguns formatos
+    RGB ou RGBA que signfica red, green, blue e alpha
+    aonde vai de 0 a 255 os valores color: rgb(255, 0, 0) = vermelho
+
+    O Alpha controla a transparência (0 = transparente, 1 = opaco)
+    HEXADECIMAL: o hexadecimal é um codigo referente aquela cor ele funciona usando 6 números/letras (0 a 9 e A a F).
+
+    tem também o HSL e HSLA
+    HSL = Hue (matiz), Saturation (saturação), Lightness (luminosidade)
+    HSLA adiciona o Alpha (transparência)
+    color: hsl(0, 100%, 50%); = vermelho 
+    color: hsla(0, 100%, 50%, 0.5); = vermelho
+
+
+*/

@@ -1,0 +1,44 @@
+.div1 {
+    background: blue;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    position: relative;
+    left: 20px;
+    top: 50px;
+    z-index: 1;
+}
+
+.div2 {
+    background: red;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.div3 {
+    background: yellow;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+}
+
+.whats {
+    background: green;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* 
+    position: relative = ele é relativo a posição atual 
+    ele também libera as propriedades top,left,right e bottom 
+    e z-index 
+
+*/

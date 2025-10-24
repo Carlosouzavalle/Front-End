@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+ol {
+    list-style: none; 
+    display: flex;
+    gap: 10px;
+}
+
+li > a{
+    color: white; /*  define a cor para o texto */
+    text-decoration: none;  /* remove os underlines dos links */
+    display: block; /* faz o link ocupar toda a área do li */
+    padding: 10px 15px; /* ajusta o tamanho clicável */
+}
+
+li > a:hover {
+    background-color: orange;
+    /*background-color define a cor de fundo de um elemento HTML. */
+}
+
+/* obs em css */
+/* <a> por padrão é inline, então o background-color só cobre o texto, não toda a área do <li>. */

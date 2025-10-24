@@ -1,0 +1,43 @@
+body {
+    background: wheat;
+}
+
+.divImagem {
+    height:300px;
+    /* background-color: gray;
+    background-image: url(./pexels-jdm-kuruma-1304609967-30145515.jpg); */
+
+    background: gray url(pexels-jdm-kuruma-1304609967-30145515.jpg);
+    background-size: cover;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+
+}
+
+
+/* 
+    background-color: define a cor de fundo
+    background-image: define uma image de fundo
+
+
+    background-repeat: define se a imagem vai repetir
+    repeat	repete em tudo (padrão)
+    no-repeat	não repete
+    repeat-x	repete só na horizontal
+    repeat-y	repete só na vertical
+
+    background-size: Controla o tamanho da imagem
+    cover	cobre todo o elemento (corta se precisar)
+    contain	mostra a imagem inteira (pode sobrar espaço)
+    auto	tamanho original
+
+    background: shorthand permite escrever tudo em uma linha só
+
+    background-position: Controla aonde a imagem fica
+    center
+    top
+    right
+    left
+
+
+*/

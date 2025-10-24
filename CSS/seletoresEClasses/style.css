@@ -1,0 +1,61 @@
+/* 
+    Aqui é bem basico quando você que estilizar algo basta dizer o elemento que você
+    quer ex: h1 é a tag e a instrução, porem não é tão interesante usar dessa forma pq?
+    pq todo elemento h1 ele vai considerar a mesma cor, para contornar essa situação usamos classes e id 
+
+    usamos . para classe 
+    ex: .centralizar
+    usamos # para id
+    ex: #centralizar
+
+Algumas coisas sobre o id/classes não pode começar com letra e o id é unico
+você não pode usar ele em varios lugares se você quer usar multiplos
+lugares voce usa a classe
+
+Agora se você quer que todas as tags receberam determinada 
+configuração vc usa o coringa * o asterisco
+
+
+* {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+perceba esse bloco acima vocêdeve esta se perguntando o porque
+dele não alterar de cor para vermelho já que usamos o seletor 
+universal *
+no css temos uma questão chamada especifidade e vence o mais especifico
+* (seletor universal) → é o menos específico de todos
+h1 (seletor de tag) → é mais específico
+
+
+
+
+*/
+
+
+* {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+
+body {
+    background: yellow;
+}
+
+.centralizar {
+    text-align: center;
+    font-size: 28px;
+}
+
+#textoMaior {
+    font-size: 58px;
+    text-align: center;
+}

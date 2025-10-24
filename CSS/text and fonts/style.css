@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+body > p {
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 50px;
+    line-height: 1.8;
+    word-spacing: 15px;
+    font-size: 20px;
+    font-family: "Bitcount Grid Single", system-ui;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+
+/* 
+isso aqui a gente usa mais em idiomas arabes. japonês
+
+direction: rtl;
+unicode-bidi: bidi-override;
+text-decoration: none; = muito usado para tirar a estilizaçõa
+de links
+text-decoration: line-through; = faz aquele corte no meio do texto
+text-decoration: underline; faz uma linha embaixo do texto o padrão
+text-transform: serve para mudar algumas propriedades do texto
+text-indent: 50px; serve para você recuar um pouco seu texto, o famoso 2 dedos
+depois da margem
+letter-spacing: 5px; = espaçamento entre as letras
+line-height: 0.8; = espaçamento entre as linhas, geralmente a gente usa 
+o valor com casas decimais
+word-spacing: 15px; = espaçamento entre palavras 
+font-style: italic; = estilo da fonte
+font-family: "Bitcount Grid Single", system-ui; = familia da fonte
+font-weight: 500; = definir a grosura da fonte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
