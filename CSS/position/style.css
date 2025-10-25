@@ -1,0 +1,99 @@
+.container {
+    position: relative;
+    display: inline-block;
+    width: 700px;
+    height: 400px;
+    background: pink;
+}
+
+.container2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+}
+
+.centro {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 28px;
+}
+
+img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.div1 {
+    background: blue;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    position: relative;
+    top: 150px;
+    left: 185px;
+}
+
+.div2 {
+    background: red;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    
+}
+
+.div3 {
+    background: yellow;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    position: absolute;
+    right: 488px;
+
+}
+
+.whats {
+    background: green;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* 
+    position: relative = ele é relativo a posição atual 
+    ele também libera as propriedades top,left,right e bottom 
+    e z-index 
+
+    o fixed ele vai ficar fixo em algum canto da pagina ele também libera gente 
+    o top, right, left e bottom
+
+
+    o position absolut ele diz respeito ao pai dele, ou seja sua posição 
+    vai ser referente ao pai do elemento e para funcionar o elemento pai precisa ser qualquer coisa menos 
+    posicionamento statico
+
+
+    o sticky ou pegajoso ele indica que um elemento vai ficar colado no topo da pagina independente de você escrolar a page
+    pra cima ou pra baixo, você tem que passar a propriedade top tbm
+
+
+
+
+
+
+
+
+
+
+
+
+*/
