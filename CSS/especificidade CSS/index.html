@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidade CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="background: green;">texto legal</h1>
+</body>
+</html>
+
+<!-- 
+    1 id
+    2 tag.classe 
+    3 class
+    4 tag
+
+    mais se você passa o seletor mais uma classe ou id fica mais espefico e 
+    mais forte
+    ex: a.link ou img#imagem
+    
+    e também se você tiver varios seletores
+    ex: 
+    background: green;
+    background: yellow;
+    background: red;
+
+    o que vai funcionar é o ultimo, o css sempre vai aceitar a ultima opção 
+
+    mais voce pode burlar as regras utilizando o important
+    ele vai simplismente ignorar as outras informações
+    ex: 
+
+    h1 {
+    background: yellow !important;
+}
+
+-->

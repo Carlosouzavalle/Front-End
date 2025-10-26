@@ -1,0 +1,30 @@
+h1 {
+    color: yellow;
+    text-shadow: 4px 2px 3px black;
+}
+
+.caixa {
+    width: 30%;
+    height: 300px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+
+.caixa > img {
+    max-width: 100%;
+}
+
+.caixa > p {
+    text-align: center;
+}
+
+/* 
+no caso pro text-shadow
+text-shadow: deslocamentoX deslocamentoY desfoque cor;
+
+no box shadow 
+box-shadow: deslocamentoX deslocamentoY desfoque espalhamento cor;
+
+
+
+*/

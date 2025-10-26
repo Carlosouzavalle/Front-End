@@ -1,0 +1,43 @@
+.container {
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.container img {
+    float: left;
+    margin-right: 20px;
+}
+
+ol {
+    background: black;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.login {
+    float: right;
+}
+
+a:hover {
+    background: gray;
+}
+
+.login > a:hover {
+    background: orange;
+    
+}
+/* 
+    Quando trabalhamos com float o elemento se desprende  do container
+    da div que ela vao estar contida, então para contornar essa situação utilizamos
+    a propriedade overflow assim ele pega o tamanho total
+
+*/

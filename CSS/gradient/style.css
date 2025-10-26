@@ -1,0 +1,16 @@
+.gradient {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, blue,red);
+}
+
+
+/* 
+
+a gente faz o grandient utilizando o background-image
+o mesmo que utilizamos para imagem, so que de propriedade
+passamos o linear-gradient e passamos a cor
+também podemos passar a direção e ela tambem pode
+ser passada como angulo.
+ex: 45deg, 90deg, 180deg
+*/

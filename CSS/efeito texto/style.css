@@ -1,0 +1,52 @@
+h1 {
+    color: yellow;
+    text-shadow: 4px 2px 3px black;
+}
+
+.caixa {
+    width: 30%;
+    height: auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+
+.caixa > img {
+    max-width: 100%;
+}
+
+.caixa > p {
+    text-align: center;
+}
+
+.reduzido {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.caixa:hover .reduzido {
+    white-space: normal;
+    padding-bottom: 20px;
+}
+
+h1 {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+/* 
+    o white-space: ele controla como o navegador interpreta e exibe os espaços, quebras de linha e tabulações dentro de um elemento.
+    white-space: normal;	(padrão) junta vários espaços em 1 e quebra linha automaticamente
+    white-space: nowrap;	impede quebra de linha (tudo fica em uma linha só)
+    white-space: pre;	mantém todos os espaços e quebras de linha (tipo <pre>)
+    white-space: pre-line;	mantém quebras, mas reduz espaços múltiplos para um só
+    white-space: pre-wrap;	mantém todos os espaços e quebras, mas ainda permite quebra automática se a linha for grande demais
+
+
+    o text-overflow: controla como o texto será exibido quando ultrapassar o limite do container, mas ela só funciona junto com o overflow
+    text-overflow: clip;	Corta o texto simplesmente (sem nada visual)
+    text-overflow: ellipsis;	Coloca “...” no final do texto cortado
+
+
+*/
