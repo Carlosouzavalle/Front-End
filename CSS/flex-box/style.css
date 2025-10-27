@@ -1,0 +1,38 @@
+.flex_container {
+    background: blue;
+    display: flex;
+    height: 600px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_container div {
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+}
+/* 
+flex-direction: row; serve para indicar a direção dos
+elementos
+
+flex-wrap: wrap; quando ele chegar o conteudo extrapolar
+da area de vizualização ele quebra a linha
+
+flex-wrap: nowrap; é o comportamento padrão e ele
+não quebra a linha
+
+flex-flow: row wrap; é o short hand o atalho para utilizar os dois acima
+
+justify-content: flex-start; o padrão dele é começar como flex-start
+justify-content: flex-end; joga para o final
+justify-content: center; alinha no centro na horizontal
+align-items: center; alinha no centro na vertical
+align-items: flex-start; alinha no topo da pagina na vertical
+align-items: flex-end; alinha no final da pagina na vertical
+
+
+*/
