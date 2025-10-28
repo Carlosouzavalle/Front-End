@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div {
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_perfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.bio_div {
+    display: flex;
+    justify-content: center;
+}
+
+.bio_div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.bio_section {
+    margin-bottom: 30px;
+}
+
+.project_section {
+    margin-bottom: 30px; 
+}
+
+.div_cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+}
+
+
+.div_cards > div {
+  background: gray;
+  height: 250px;
+  width: 200px;
+  border: 4px solid transparent;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.div_cards > div:hover {
+  border-color: orange;
+  transform: scale(1.1);
+}
+
+
+.div_cards > div > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.rodape {
+    margin-top: 150px;
+    background: black;
+    padding: 20px;
+}
+
+.div_rodape {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.div_rodape > div > a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.div_rodape > div > a:hover {
+    color: orange;
+}
+
+
+
+/* 
+A propriedade transform altera a forma, tamanho 
+ou posição de um elemento, sem mudar sua estrutura 
+no layout (ou seja, não empurra os outros elementos).
+
+
+transform: scale(1.2);       aumenta o tamanho (20%) 
+transform: rotate(15deg);    gira o elemento 15 graus 
+transform: translateX(50px);  move 50px pro lado 
+transform: translateY(-20px);  move pra cima 
+transform: skew(10deg);      inclina o elemento 
+
+
+A propriedade transition define como e quanto tempo 
+uma mudança de estilo vai acontecer (por exemplo, quando 
+passa o mouse)
+
+ual propriedade vai ser animada
+0.3s → duração da animação (300 milissegundos)
+você pode adicionar várias propriedades separadas por vírgula
+
+transition: [propriedade] [duração] [função de tempo] [atraso];
+
+transition: all 0.5s ease-in-out 0s;
+
+all → anima todas as propriedades que mudarem
+0.5s → duração
+ease-in-out → acelera e desacelera suavemente
+0s → atraso (pode ser usado pra começar depois)
+
+
+*/

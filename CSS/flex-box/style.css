@@ -7,6 +7,8 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    
 }
 
 .flex_container div {
@@ -14,8 +16,11 @@
     border: 1px solid black;
     margin: 5px;
     padding: 30px;
+    flex-grow: 1;
 }
+
 /* 
+
 flex-direction: row; serve para indicar a direção dos
 elementos
 
@@ -33,6 +38,10 @@ justify-content: center; alinha no centro na horizontal
 align-items: center; alinha no centro na vertical
 align-items: flex-start; alinha no topo da pagina na vertical
 align-items: flex-end; alinha no final da pagina na vertical
+align-content: center; com ele a gente consegue pegar todo o bloco de elementos
+e centralizar
+flex-grow: 1; faz com que todos os elementos cresçam de forma uniforme/da mesma maneira
+e ela sempre é usada na div filho/elemento filho, podemos  também selecionar um crescimento para elementos separados
 
 
 */

@@ -1,0 +1,54 @@
+/* Grid 1 */
+.titulo {
+    text-align: center;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1800px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    border: 1px solid black;
+}
+
+.grid1 > div:nth-child(n + 4) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.grid1 > div.anuncio {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    display: block;
+}
+
+
+
+/* 
+
+grid-template-columns: 1fr 1fr 1fr; aqui é unidade fracionaria 1fr = 33%
+grid-template-columns: repeat(3, 1fr);
+
+nth-child(1) = vai pegar o elemento passado entre as chaves
+
+
+*/
+
+
+/* grid 2 */
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    grid-gap: 20px;
+    max-width: 1800px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+.sidebar > div {
+    margin-bottom: 10px;
+}
