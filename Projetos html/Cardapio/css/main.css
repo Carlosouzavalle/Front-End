@@ -1,6 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background: linear-gradient(120deg, #708D81, #CBA35C);
-    font-family: 'Italianno', cursive;
+    font-family: 'Cinzel Decorative', serif;
 }
 
 .Header {
@@ -8,6 +13,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: rgba(255, 99, 71, 0.781);
+    color: white;
+    padding: 20px;
+}
+
+.Header > div{
+    margin: 10px;
 }
 
 .container_entradas {
@@ -26,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid black;
+    border: 4px solid black;
 }
 
 .container_img_entrada {
@@ -54,6 +66,25 @@ body {
     margin-top: 80px;
 }
 
+.rodape {
+    background: rgba(0, 0, 0, 0.767);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.rodape_div {
+    display: flex;
+    margin: 20px;
+}
+
+.rodape_div > a {
+    color: white;
+    padding: 5px;
+}
 
 /* 
     Meus erros colocar width e height aonde não precisava e ficar frustado por a imagem não estar 
