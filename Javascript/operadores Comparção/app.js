@@ -20,6 +20,7 @@ console.log(20 != 20); // false
 
 
 /*
+
 > maior que
 < menor que
 >= maior ou igual

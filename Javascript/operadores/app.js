@@ -33,3 +33,4 @@ let numero_b = '2';
 
 // uma mais legivel de ler
 console.log(Number(numero_a) + Number(numero_b))
+console.log(typeof Number(numero_a));
