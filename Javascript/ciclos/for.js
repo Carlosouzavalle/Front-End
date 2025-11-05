@@ -5,7 +5,7 @@
 //     // bloco de código a ser executado
 // //}
 
-// //=======================================================================
+//=======================================================================
 // for(i = 0; i <= 10; i++) {
 //     console.log(`o valor  é ${i}`)
 // } 
@@ -19,9 +19,12 @@
 
 // // da para enxugar mais ainda:
 // let valor2 = 1;
-// for(; valor2 <= 10;) {
+// for(; valor2 <= 10; ) {
 //     console.log(`o valor3 é: ${valor2++}`);
 // }
+
+
+
 
 // // intercalando o loop
 // let valor4 = 1;
@@ -46,10 +49,9 @@
 // }
 
 // sair de loops nomeados
-
-ciclo: for(i2 = 1; i2 <= 4; i2++) {
-    for(j2 = 1; j2 <= 3; j2++) {
-        if(i2 * j2 == 6) break ciclo;
-        console.log(`${i2} x ${j2} = ${i2 * j2}`);
-    }
-}
+// ciclo: for(i2 = 1; i2 <= 4; i2++) {
+//     for(j2 = 1; j2 <= 3; j2++) {
+//         if(i2 * j2 == 6) break ciclo;
+//         console.log(`${i2} x ${j2} = ${i2 * j2}`);
+//     }
+// }

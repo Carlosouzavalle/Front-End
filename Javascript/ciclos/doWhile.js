@@ -1,14 +1,11 @@
 // aqui a diferença é que o bloco de código será executado pelo menos uma vez,
 
-contador = 0;
+contador = 10;
 do {
     console.log(`Contador é: ${contador}`);
-    contador++;
-} while(contador <= 10);
+    contador--;
+} while(contador >= -10);
 // mesmo que a condição seja falsa desde o início.
-
-
-
 
 
 
@@ -17,5 +14,5 @@ let numero = 1;
 do {
     console.log(`Número é: ${numero}`);
     numero++;
-    if(numero > 5) break;
+    if(numero > 6) break;
 } while(numero <= 10);

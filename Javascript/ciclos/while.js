@@ -8,12 +8,12 @@
 // }
 
 //podemos fazer tudo em uma linha só
-let contador2 = 0; while(contador2 <=10)  console.log(`Contador2 é: ${contador2}`), contador2++;
+//let contador2 = 0; while(contador2 <=10)  console.log(`Contador2 é: ${contador2}`), contador2++;
 
 
 //atenção cuidado para não fazer loops infinitos
-let contador3 = 0;
-while(contador3 <= 10) {
-    console.log(`Contador3 é: ${contador3}`);
+// let contador3 = 0;
+// while(contador3 <= 10) {
+//     console.log(`Contador3 é: ${contador3}`);
     //contador3++; //se tirar esse incremento, o loop nunca vai acabar
-}
+//}
