@@ -8,5 +8,6 @@ let cliente = {
 for(chave in cliente) {
     console.log(chave + " = " + cliente[chave])
 }
-
+ 
 //=====================================================================================
+// acesando todos os valores dentro do nosso objeto
