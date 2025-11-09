@@ -17,3 +17,20 @@ let frutas = ["maçã", "banana", "laranja"]
 
 frutas.splice(1, 0, "abacaxi", "kiwi")
 console.log(frutas)
+
+//=================================================================================
+
+// substituir elementos
+
+let numeros = [1,2,3,4,5]
+numeros.splice(1,2,14,15)
+console.log(numeros)
+
+
+//=================================================================================
+    //retorno do splice
+
+
+let numeros2 = [12,13,14,15]
+let removidos = numeros2.splice(2,3)
+console.log(removidos)
