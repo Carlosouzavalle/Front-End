@@ -11,6 +11,10 @@ let cliente = {
 
     alterar_nome: function(novo_nome) {
         this.nome = novo_nome
+    },
+
+    remove_cliente: function() {
+        this.nome = ''
     }
 }
 
@@ -18,7 +22,8 @@ console.log(cliente.nome)
 console.log(cliente.nome_completo())
 cliente.alterar_nome('bia')
 console.log(cliente.nome_completo())
-
+cliente.remove_cliente()
+console.log(cliente)
 
 /*
     È a forma mais facil de criar objeto

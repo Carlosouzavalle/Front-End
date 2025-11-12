@@ -1,7 +1,5 @@
 // Um pouco mais sobre objeto
-let nacionalidade = 'Portugal'
-
-
+let nacionalidade = 'brasil'
 
 const cliente = {
     nome: 'Carlos',
@@ -35,4 +33,4 @@ console.log(cliente["tipo cliente"])
 
 //===========================================================================
 
-console.log(cliente.Portugal)
+console.log(cliente.brasil)
