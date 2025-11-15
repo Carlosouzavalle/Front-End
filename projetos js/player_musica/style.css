@@ -1,3 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.top-header {
+  display: flex;
+  background-color: #444;
+  height: 80px;
+}
+
+#container-seach-upgrade {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.container-seach-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.container-seach-bar > div > .btn_buscar {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+#upgrade-container a {
+  color: white;
+  text-decoration: none;
+  background: orange;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .sidebar {
   height: 100%;
   width: 0;
@@ -21,7 +60,7 @@
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  background-color: #444;
 }
 
 .sidebar .closebtn {
@@ -35,23 +74,19 @@
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: #444;
   color: white;
   padding: 10px 15px;
   border: none;
+  height: 80px;
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: black;
 }
 
 
-@media screen and (max-height: 450px) {
+@media screen and (width: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
-}
-
-a.closebtn {
-    margin: 0 0 0 50px;
-    
 }
