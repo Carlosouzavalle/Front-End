@@ -6,37 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pobre-fy</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <!-- <script src="main.js" defer></script> -->
+    <!-- defer diz pro navegador olha executa o javascript só quando o arquivo html estiver pronto  -->
+
 </head>
 
 <body>
-    <header class="top-header">
-        <nav>
-            <div id="mySidebar" class="sidebar">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
-            </div>
-        </nav>
-        <div>
-            <button class="openbtn" onclick="openNav()">☰</button>
+    <section class="player">
+        <div class="controls">
+            <button id="prevBtn">⏮️</button>
+            <button id="playBtn">▶️</button>
+            <button id="nextBtn">⏭️</button>
         </div>
-        <div id="container-seach-upgrade">
-            <div class="container-seach-bar">
-                <div>
-                    <input id="seach-bar" type="search">
-                </div>
-                <div>
-                    <button class="btn_buscar">Buscar</button>
-                </div>
-            </div>
-            <div id="upgrade-container">
-                <a href="#">UPGRADE</a>
-            </div>
+
+        <div class="info">
+            <p id="musicTitle">Título da Música</p>
+            <input type="range" id="progressBar" value="0" step="1">
         </div>
-    </header>
+    </section>
+
+    <audio id="audioPlayer"></audio>
+    <script src="main.js"></script>
 </body>
 
 </html>
