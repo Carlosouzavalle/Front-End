@@ -1,0 +1,17 @@
+🌳 O que é o DOM?
+
+DOM = Document Object Model
+Ou seja, é a forma como o JavaScript enxerga o HTML.
+
+Pensa assim:
+
+👉 O HTML cria a estrutura da página
+👉 O DOM transforma essa estrutura em um objeto gigante
+👉 O JavaScript consegue pegar, trocar, remover, criar qualquer parte da página usando esse objeto
+
+BOM = Browser Object Model - Contém objetos adicionais para manipular o Browser
+excepto o documento html.
+ex: navigtor permite obter informações do sistema
+location permite ler a URL atual e redirecionar para outra página
+
+JavaScript Core - os mecanismos internos do JavaScript(sintaxe, arrays, objetos, classes e etc...)
