@@ -11,6 +11,7 @@ Pensa assim:
 
 BOM = Browser Object Model - Contém objetos adicionais para manipular o Browser
 excepto o documento html.
+
 ex: navigtor permite obter informações do sistema
 location permite ler a URL atual e redirecionar para outra página
 

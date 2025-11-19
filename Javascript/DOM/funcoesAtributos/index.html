@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="teste">TESTE</h1>
+
+    <img src="https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/master/Python/Katsushika%20Hokusai_Python_tricks.png" alt="">
+
+
+    <script>
+        let elemento = document.querySelector('h1')
+        let elemento2 = document.querySelector('img')
+
+        // hasAttribute - verifica se o atributo existe
+        if(elemento.hasAttribute('id')) {
+            console.log('SIM')
+        }
+
+        // getAttribute - pega o valor do atributo
+        console.log(elemento.getAttribute('id'))
+
+        // setAttribute - define o valor do atributo
+        elemento.setAttribute('title', 'titulo legal')
+        console.log(elemento)
+
+        // removeAttribute - remove o atributo
+        // elemento2.removeAttribute('src')
+        console.log(elemento2)
+
+        console.log(elemento2.attributes)
+    </script>
+
+    
+</body>
+</html>

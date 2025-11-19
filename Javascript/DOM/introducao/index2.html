@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>html</h1>
 
@@ -20,10 +22,22 @@
         // document.body.style.background = 'blue'
 
         // bom
-        if(confirm('voce deseja ir para a pagina do google')) {
-            location.href = 'https://www.google.com'
-        }
+
+
 
     </script>
+
+
+    <button onclick="ir()">Ir para o Google</button>
+
+    <script>
+        function ir() {
+            if (confirm("Deseja abrir o Google em outra aba?")) {
+                window.open("https://www.google.com", "_blank");
+            }
+        }
+    </script>
+
 </body>
+
 </html>

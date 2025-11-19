@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            padding: 15px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;   
+        }
+
+        p {
+            color: #333333;
+            font-size: 16px;
+        }
+
+        .alerta {
+            background: red;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    
+
+    
+    <div class="container">
+        <p>Aqui vai um parágrafo</p>
+       
+    </div>
+
+
+    <!-- <button onclick="alerta()">Adicionar Alerta</button> -->
+
+
+    <script>
+
+        // function alerta() {
+        //     //criar um novo elemento
+        //     const novo_paragrafo = document.createElement('p')
+        //     novo_paragrafo.innerText = 'Alerta!!!'
+        //     novo_paragrafo.className = 'alerta'
+            
+        //     // adicionar o novo elemento ao DOM
+        //     let elemento = document.querySelector('div')
+        //     elemento.appendChild(novo_paragrafo)
+
+        // }
+
+        //criar um novo elemento
+            // const novo_paragrafo = document.createElement('p')
+            // novo_paragrafo.innerText = 'Alerta!!!'
+            // novo_paragrafo.className = 'alerta'
+            
+
+            // adicionar o novo elemento ao DOM
+            // let elemento = document.querySelector('div')
+            // elemento.appendChild(novo_paragrafo)
+            // elemento.appendChild(novo_paragrafo.cloneNode(true))
+            // elemento.appendChild(novo_paragrafo.cloneNode(true))
+            // elemento.appendChild(novo_paragrafo.cloneNode(true))
+            // elemento.appendChild(novo_paragrafo.cloneNode(true))
+
+            //========================================================================
+
+            let div = document.querySelector('.container')
+
+            // // add antes da div
+            // div.before('AAAA')
+
+            // // add dentro da div no começo
+            // div.prepend('BBBB')
+
+            // // add dentro da div no final
+            // div.append('CCCC')
+             
+            // // add depois da div
+            // div.after('DDDD')
+
+
+            //=========================================================================
+            // Mesma coisa usando insertAdjacentText
+
+            // // antes da div
+            // div.insertAdjacentText('beforebegin', 'AAAA')
+
+            // // dentro da div no começo
+            // div.insertAdjacentText('afterbegin', 'BBBB')
+
+            // // dentro da div no final
+            // div.insertAdjacentText('beforeend', 'CCCC')
+
+            // // depois da div
+            // div.insertAdjacentText('afterend', 'DDDD')
+
+            //=========================================================================
+            // Mesma coisa usando insertAdjacenthTML
+
+            // div.insertAdjacentHTML('beforebegin', '<p>AAAA</p>')
+            // div.insertAdjacentHTML('afterbegin', '<p>BBBB</p>')
+            // div.insertAdjacentHTML('beforeend', '<p>CCCC</p>')
+            // div.insertAdjacentHTML('afterend', '<p>DDDD</p>')
+
+
+            //=========================================================================
+            // Mesma coisa usando insertAdjacentElement
+
+            let p1 = document.createElement('p')
+            let p2 = document.createElement('p')
+            let p3 = document.createElement('p')
+            let p4 = document.createElement('p')
+            p1.innerText = 'AAAA'
+            p2.innerText = 'BBBB'
+            p3.innerText = 'CCCC'
+            p4.innerText = 'DDDD'
+
+            div.insertAdjacentElement('beforebegin', p1)
+            div.insertAdjacentElement('afterbegin', p2)
+            div.insertAdjacentElement('beforeend', p3)
+            div.insertAdjacentElement('afterend', p4)
+        </script>
+</body>
+</html>
