@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- className representa todas as classes de um elemento como uma única string. -->
+    <div id="meuElemento" class="classe1 classe2 classe3">Conteúdo do elemento</div>
+    <script>
+
+//         Pensa no className como uma caixa de texto que guarda todas as classes de uma vez, tudo dentro de uma única string.
+//  Ou seja, quando você usa className, você precisa escrever TODAS as classes de novo, mesmo que queira mudar só 1.
+
+
+// O classList é como se fosse uma lista de classes, onde você pode adicionar, remover, alternar e verificar classes de forma individual.
+
+
+        // const elemento = document.getElementById('meuElemento');
+
+        // // Usando className para obter todas as classes como uma string
+        // console.log('Usando className:', elemento.className); 
+
+        // // Modificando as classes usando className
+        // elemento.className = 'novaClasse1 novaClasse2';
+        // console.log('Após modificação com className:', elemento.className); 
+
+
+        //➕ Vantagens
+
+        // Simples para definir classes.
+        // Bom quando você quer resetar as classes todas de uma vez.
+
+        // ➖ Desvantagens
+        // Apaga tudo sem querer.
+        // Difícil adicionar/remover apenas uma classe.
+
+
+
+        const box = document.getElementById('meuElemento');
+
+        // Adicionando uma classe usando className
+        box.classList.add('classeAdicionada');
+        console.log(box);
+        box.classList.remove('classe2'); // Removendo uma classe usando className
+        console.log(box);
+        box.classList.toggle('dark-mode'); // Alternando uma classe usando className
+        console.log(box);
+
+        // Mas não só isso — ele serve para adicionar, remover, alternar e checar classes, tudo de forma muito mais segura e prática do que className.
+
+
+
+    </script>
+
+    <!-- classList serve para manipular classes diretamente, enquanto className é apenas uma string com todas as classes juntas. -->
+     <!-- ✔ Bom para trocar todas as classes de uma vez
+    ❌ Ruim para adicionar ou remover individualmente
+    ❌ Você pode apagar classes sem querer -->
+
+
+
+    <!-- 🧠 Qual usar?
+👉 Use classList 99% das vezes
+Porque é seguro, mais poderoso e não apaga suas classes sem querer.
+
+👉 Use className apenas quando:
+você quer substituir todas as classes de uma vez,
+ou quando precisa editar a string inteira manualmente. -->
+    
+
+
+</body>
+</html>

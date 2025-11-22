@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .active {
+            box-shadow: 0 0 10px 20px rgba(0,0,0,0.3);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="color: red;"></div>
+    <div id="divTeste"></div>
+
+
+    <script>
+        const box = document.querySelector('div');
+
+        box.style.backgroundColor = 'red';
+        box.style.width = '200px';
+        box.style.height = '200px';
+        box.style.border = '6px solid blue';
+
+
+        // 🎯 Regras importantes
+
+        // 🔸 1. Propriedades em CSS viram camelCase no JS
+        // background-color → backgroundColor
+        // font-size → fontSize
+        // margin-top → marginTop
+
+
+
+
+        // 📌 Quando USAR e quando EVITAR .style
+        // ✔️ Use .style quando:
+
+        // quer mudar algo bem específico num momento específico, tipo um clique.
+        // criar um efeito rápido.
+
+        // ❌ Evite .style quando:
+
+        // precisa mudar várias coisas → prefira classes
+        // precisa manter organização → use .classList.add() para trocar estilos
+
+
+        const div = document.querySelector('div');
+        div.classList.add('active');
+        console.log(div.style.color)
+
+        // Se o estilo vem do CSS externo, element.style NÃO consegue ver:
+        const divTeste = document.getElementById('divTeste');
+        console.log(divTeste.style.backgroundColor); // '' (vazio)
+
+        // Para pegar estilos do CSS externo, use getComputedStyle:
+        const estilos = getComputedStyle(divTeste);
+        console.log(estilos.backgroundColor); // rgb(130, 16, 16)
+
+        //📌 getComputedStyle() vê tudo:
+        // estilos do CSS externo
+        // estilos herdados
+        // estilos aplicados via classe
+        // estilos calculados (ex.: rem convertidos para px)
+    </script>
+</body>
+</html>

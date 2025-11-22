@@ -1,19 +1,24 @@
 const songs = [
     { 
         title: "Aquelas coisas - joão gomes",
-        src: "musicas/AQUELASCOISAS.mp3"
+        src: "musicas/AQUELASCOISAS.mp3",
+        cover: "img/joao-gomes.jpg"
     },
     {
         title: "Magica - Calcinha Preta",
-        src: "musicas/CalcinhaPretaMágica.mp3"
+        src: "musicas/CalcinhaPretaMágica.mp3",
+        cover: "img/Calcinha-8.jpg"
     }
 ]
 
+ 
+    
 const audio = document.getElementById("audioPlayer");
 const playBtn = document.getElementById("playBtn");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 const progressBar = document.getElementById("progressBar");
+const cover = document.getElementById("cover");
 const musicTitle = document.getElementById("musicTitle");
 
 let currentSong = 0;
@@ -21,6 +26,7 @@ let currentSong = 0;
 function loadSong(index) {
     audio.src = songs[index].src;
     musicTitle.textContent = songs[index].title;
+    cover.src = songs[index].cover;
 }
 
 function playSong() {
