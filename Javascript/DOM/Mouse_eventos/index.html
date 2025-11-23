@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div style="background: rgba(244, 71, 8, 0.856); width: 200px; height: 200px;">
+
+    </div>
+
+    <script>
+        const div = document.querySelector('div');
+
+        div.addEventListener('dblclick', () => {
+            div.style.background = 'blue';
+        });
+
+        div.addEventListener('mouseenter', () => {
+            div.style.background = 'green';
+        });
+
+        div.addEventListener('mouseleave', () => {
+            div.style.background = 'rgba(244, 71, 8, 0.856)';
+        });
+
+        div.addEventListener('mousemove', () => {
+            div.style.background = 'yellow';
+        }); 
+
+        div.addEventListener('mousedown', () => {
+            div.style.background = 'pink';
+        });
+
+        div.addEventListener('mouseup', () => {
+            div.style.background = 'purple';
+        });
+    </script>
+</body>
+</html>

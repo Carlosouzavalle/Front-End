@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="apresentar()">Executar</button>
+    <button id="meubtn">Executar 2</button>
+    <button id="meubtn2">Executar 3</button>
+
+
+
+    <script>
+        // função que será chamada no evento de clique
+        function apresentar() {
+            alert("Foi clicado!");
+        }
+
+        // outra forma de adicionar eventos
+        const btn2 = document.querySelector("#meubtn");
+        btn2.onclick = function() {
+            alert("Outro evento de clique!");
+        }
+
+        // adicionando evento com addEventListener (RECOMENDADO
+        const btn3 = document.querySelector("#meubtn2");
+        btn3.addEventListener("click", function() {
+            alert("Evento adicionado com addEventListener!");
+        })
+
+        // Vantagens:
+        // Você pode adicionar vários eventos ao mesmo elemento
+        // Mantém o código organizado
+        // É o método moderno usado em projetos reais
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="larguraTela">Dimensões e Localização</h1>
+
+
+
+    <script>
+        const tamanho = document.getElementById('larguraTela');
+        console.log(tamanho.offsetWidth);  // Largura do elemento, incluindo bordas
+        console.log(tamanho.offsetHeight); // Altura do elemento, incluindo bordas
+        // ✔️ width + padding + border
+        // ❌ não inclui margin
+        // ❌ não inclui scrollbar interno
+        // Representam tamanho completo do elemento:
+
+
+        // 2. clientWidth / clientHeight
+        console.log(tamanho.clientWidth);  // Largura do elemento, incluindo padding
+        console.log(tamanho.clientHeight); // Altura do elemento, incluindo padding
+        // ✔️ width + padding
+        // ❌ sem border
+        // ❌ sem margin
+        // ❌ sem scrollbar interno
+        // Usado quando você quer saber apenas a área útil do conteúdo.
+
+        // 3. scrollWidth / scrollHeight
+        console.log(tamanho.scrollWidth);  // Largura total do conteúdo, incluindo o que está fora da tela
+        // Mostra o tamanho do conteúdo total, mesmo o que está rolando para fora (overflow).
+
+
+        // 4 getBoundingClientRect()
+        console.log(tamanho.getBoundingClientRect());
+
+        // Esse é o mais poderoso!
+        // Retorna um objeto com:
+        // largura e altura
+        // posição exata no viewport
+        // left, right, top, bottom
+        // sua função principal é fornecer a posição do elemento em relação à janela de visualização (viewport).
+    </script>
+
+
+</body>
+
+</html>

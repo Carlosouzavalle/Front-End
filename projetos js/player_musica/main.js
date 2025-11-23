@@ -106,9 +106,6 @@ loadSong(currentSong);
 // ✔ É usado para iniciar a reprodução
 // ✔ Faz parte da API HTMLMediaElement
 
-
-
-
 //===========================================Coisas que eu estava testando=============================
 
 // function openNav() {
