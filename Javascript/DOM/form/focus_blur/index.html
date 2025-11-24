@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        div {
+            margin-bottom: 10px;
+        }
+
+        .focus {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="post" name="frm_login">
+        <div>
+            <label for="usuario">usuario</label>
+            <input type="text" name="usuario" id="usuario" value="carlos">
+        </div>
+        <div>
+            <label for="senha">senha</label>
+            <input type="password" name="senha" id="senha" value="12345">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">  
+        </div>
+    </form>
+
+
+
+    <script>
+        const usuario = document.querySelector('#usuario');
+        const senha = document.querySelector('#senha');
+
+        // focus = ganha o foco
+        usuario.addEventListener('focus', (e) => {
+            e.target.classList.add('focus');
+        })
+
+        senha.addEventListener('focus', (e) => {
+            e.target.classList.add('focus');
+        })
+
+        // blur = perde o foco
+        // usuario.addEventListener('blur', (e) => {
+        //     e.target.classList.remove('focus');
+        // })
+
+        // senha.addEventListener('blur', (e) => {
+        //     e.target.classList.remove('focus');
+        // })
+
+    </script>
+</body>
+</html>

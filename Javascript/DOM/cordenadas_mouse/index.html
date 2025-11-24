@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // ✅ 1. clientX e clientY
+        // document.addEventListener("mousemove", function(e) {
+        //     console.log("clientX:", e.clientX, "clientY:", e.clientY);
+        // });
+
+        // Coordenadas relativas à área visível da janela (viewport).
+        // Não contam com a rolagem da página.
+
+
+
+        // ✅ 2. pageX e pageY
+        // document.addEventListener("mousemove", (e) => {
+        //     console.log("pageX:", e.pageX, "pageY:", e.pageY);
+        // })
+        // Coordenadas relativas ao documento inteiro.
+        // Contam com a rolagem da página.
+        // Quando usar:
+        // Quando a página tem rolagem e você quer saber a posição real no documento.
+
+
+        // ✅ 3. screenX e screenY
+        document.addEventListener("mousemove", (e) => {
+            console.log("screenX>", e.screenX, "screenY:", e.screenY);
+        })
+        // Coordenadas relativas à tela do usuário.
+        // Contam com a barra de tarefas e outros elementos da interface do sistema operacional.
+        // Quando usar:
+        // Quase nunca.
+        // É mais útil para janelas popup.
+    
+        
+        // 🔥 Resumo rápido
+        //     Coordenada	    O que mede	Conta scroll?	    Uso comum
+        //     clientX/Y	    posição no viewport	            ❌ não	UI, jogos, efeitos
+        //     pageX/Y	        posição no documento	        ✔️ sim	páginas com scroll
+        //     screenX/Y	    posição na tela física	        ❌ raro
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="mySelect">Choose an option:</label>
+            <input type="text">
+        </div>
+    </form>
+
+
+
+    <script>
+        const input = document.querySelector('input');
+
+        input.addEventListener('change', (event) => {
+            console.log('Change event fired');
+            console.log('New value:', event.target.value);
+        });
+
+        // 📌 Dispara somente quando o valor muda e o usuário sai do campo (perde o foco).
+        //     Perfeito para campos onde você só quer validar após terminar.
+        //     ✔️ Exemplos: email, número, select, checkbox.
+
+    </script>
+</body>
+</html>

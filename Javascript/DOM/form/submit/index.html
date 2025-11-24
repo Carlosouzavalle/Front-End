@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" id="meuforms">
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        <button type="submit">Enviar</button>
+    </form>
+    <div id="resultado"></div>
+
+    <script>
+        const form = document.getElementById('meuforms');
+
+
+
+        // form.addEventListener('submit', (e) => {
+        //     e.preventDefault(); // impede o envio padrão do formulário
+        //     const nomeInput = document.getElementById('nome').value;
+        //     document.getElementById('resultado').textContent = `Bem-vindo, ${nomeInput}!`;
+        // })
+
+        // 🚨 IMPORTANTE: sempre usar preventDefault()
+        // Sem isso, ao enviar o formulário, o navegador vai:
+        // ❌ recarregar a página
+        // ❌ apagar todos os dados do usuário
+        // ❌ quebrar qualquer lógica JavaScript
+
+
+        // validando formulário antes de enviar
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            // validando
+            const nomeSemEspacos = nome.value.replace(/\s+/g, '')
+            const nomeDigitado = nome.value.trim()
+
+            if (nomeDigitado === '') {
+                alert('Por favor, preencha o campo nome.');
+                return;
+            }
+
+            if (nomeDigitado !== nomeSemEspacos) {
+                console.log('nome com espaços:' + nomeDigitado + "nome sem espaços:" ,nomeSemEspacos);
+                return;
+            }
+
+            document.getElementById('resultado').textContent = `Bem-vindo, ${nomeDigitado}!`;
+            console.log('Formulário enviado com sucesso!');
+
+
+        })
+
+
+
+    </script>
+</body>
+
+</html>

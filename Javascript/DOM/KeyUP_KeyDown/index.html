@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.addEventListener('keydown', (e) => {
+            console.log(`Key Down: Apertou ${e.key}`);
+        })
+
+        document.addEventListener('keyup', (e) => {
+            console.log(`Key Up: Soltou ${e.key}`);
+        })
+
+
+    // 📝 O que posso acessar no evento?
+    // Propriedade	    O que retorna
+    // event.key	    A tecla pressionada (“a”, “Enter”, “Shift”...)
+    // event.code	    O código físico da tecla (“KeyA”, “Digit1”)
+    // event.altKey	    Se ALT está pressionado
+    // event.ctrlKey	Se CTRL está pressionado
+    // event.shiftKey	Se SHIFT está pressionado
+
+
+
+
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required minlength="3" maxlength="15" pattern="[A-Za-z0-9]+">
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        const user = document.getElementById('username');
+
+        user.addEventListener('input', () => {
+            console.log('Current value:', user.value);
+        });
+    </script>
+    <!-- 📌 Dispara toda vez que o valor muda, em tempo real.
+        — Digitar letra por letra
+        — Apagar
+        — Colar
+        — Recortar
+        — Autocomplete
+
+        ✔️ É o evento mais usado para acompanhar mudanças ao vivo. -->
+</body>
+</html>

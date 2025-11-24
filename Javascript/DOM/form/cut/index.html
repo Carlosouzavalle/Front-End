@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ✂️ 3. Evento cut (recortar) -->
+
+
+    <form action="#">
+        <label for="#">User</label>
+        <input type="text" name="user" id="user">
+    </form>
+
+    <form action="#">
+        <label for="#">User</label>
+        <input type="text" name="user" id="use2r">
+    </form>
+
+    <form action="#">
+        <label for="#">User</label>
+        <input type="text" name="user" id="use3r">
+    </form>
+
+    <script>
+        const inputUser = document.querySelector('#user');
+        const inputUser2 = document.querySelector('#use2r');
+        const inputUser3 = document.querySelector('#use3r');
+
+
+        inputUser.addEventListener('cut', (e) => {
+            alert('Has recortado contenido del input');
+        })
+        // vai disparar o evento cut quando o conteudo for recortado ctrl + x
+
+
+        inputUser2.addEventListener('copy', (e) => {
+            alert('Has copiado contenido del input');
+        })
+        // vai disparar o evento copy quando o conteudo for copiado ctrl + c
+
+        inputUser3.addEventListener('paste', (e) => {
+            alert('Has pegado contenido en el input');
+        })
+
+    </script>
+</body>
+</html>
