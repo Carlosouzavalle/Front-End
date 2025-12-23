@@ -64,3 +64,68 @@
     font-family: 'Arial', sans-serif;
 }
 
+/* Banner styles */
+
+.banners_container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid #ccc;
+}
+
+.banners {
+    display: flex;
+    gap: 15px;
+    transition: transform 0.5s ease;
+    justify-content: flex-start; /* 🔥 */
+    width: max-content;
+}
+
+.banners div {
+    min-width: 600px;
+}
+
+.banners img {
+    width: 800px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+
+.btn_next {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.btn_prev {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.btn_next button,
+.btn_prev button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 80px;    
+    border-radius: 5px;
+}
+
+.btn_next button:hover,
+.btn_prev button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Final banner styles */
+
+
+
+
+
