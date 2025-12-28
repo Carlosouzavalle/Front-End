@@ -1,0 +1,14 @@
+1 faça um programa que escreva "olá mundo" na tela.
+2 crie um programa aonde o programa pede pra você digitar o seu nome e em seguida 
+apresente uma mensage de boas vindas
+3 somando dois numeros 
+4 faça um programa que leia algo pelo teclado e mostre o maximo de
+informações sobre ela
+5 escreva um programa que leia o numero sucessor e antecessor 
+6 dobro, triplo e raiz quadrada
+7 Média Aritmética
+8 Conversor de Medidas
+9 tabuada
+10 Conversor de Moedas
+11 Pintando Parede
+12  Calculando Descontos

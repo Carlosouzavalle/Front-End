@@ -20,7 +20,7 @@ next.addEventListener('click', () => {
     if (index < maxIndex) {
         index++;
     } else {
-        index = 0; // 🔁 volta pro início
+        index = 0; 
     }
     updateCarousel();
 });
@@ -29,7 +29,7 @@ prev.addEventListener('click', () => {
     if (index > 0) {
         index--;
     } else {
-        index = maxIndex; // 🔁 vai pro final
+        index = maxIndex; 
     }
     updateCarousel();
 });

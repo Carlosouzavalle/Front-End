@@ -83,12 +83,12 @@
 }
 
 .banners div {
-    min-width: 600px;
+    min-width: 800px;
 }
 
 .banners img {
-    width: 800px;
-    height: 450px;
+    width: 1000px;
+    height: 500px;
     border-radius: 8px;
 }
 
