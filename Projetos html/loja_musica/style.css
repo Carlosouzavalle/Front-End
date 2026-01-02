@@ -80,6 +80,8 @@
     transition: transform 0.5s ease;
     justify-content: flex-start; /* 🔥 */
     width: max-content;
+
+    
 }
 
 .banners div {
@@ -126,6 +128,51 @@
 /* Final banner styles */
 
 
+/* Buttons below banners */
+.btn_wrapper{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 2px solid #270303; */
+    z-index: 2;
+    bottom: 120px;
+}
+
+.btn_banners {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 20px;
+    /* border: 2px solid #270303; */
+}
+
+.btn_banners button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.btn_banners button:hover {
+    background-color: #0056b3;
+}
+/* Final buttons below banners */
 
 
+/* anothers tittles + carrousel instruments */
 
+.destaque_txt {
+    text-align: center;
+    margin: 50px 0 20px 0;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+}
+
+.container_instrumentos {
+    border: 1px solid black;
+}
