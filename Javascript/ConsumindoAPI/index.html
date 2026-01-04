@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime</title>
+</head>
+<body>
+
+    <h1 id="title">Carregando...</h1>
+    <p id="year"></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script>
+        axios.get('http://localhost:3000/anime')
+            .then(res => {
+                const parser = new DOMParser()
+                const xml = parser.parseFromString(res.data, 'text/xml')
+
+                const title = xml.querySelector('info[type="Main title"]')?.textContent
+                const year = xml.querySelector('info[type="Vintage"]')?.textContent
+
+                document.getElementById('title').innerText = title
+                document.getElementById('year').innerText = year
+            })
+            .catch(() => {
+                document.getElementById('title').innerText = 'Erro ao carregar'
+            })
+    </script>
+
+</body>
+</html>
