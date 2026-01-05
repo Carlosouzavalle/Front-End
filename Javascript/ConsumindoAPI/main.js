@@ -1,10 +1,21 @@
-const title = document.getElementById('title')
-const content = document.getElementById('content')
+fetch('https://jsonplaceholder.typicode.com/posts', {
+    method: "post",
+    headers: {
+        'Content-Type': 'application/json'
+    },
+        body: JSON.stringify({
+            userId: 1,
+            id: 500,
+            title: 'adfvghdafvshdg'
+        }),
+})
+    .then((res) => {
+        if(res.ok) {
+            return res.json()
+        }else (
+            console.log('ERROR')
+        )
+    })
 
-axios.get('https://www.animenewsnetwork.com/encyclopedia/title/1220/api.php')
-    .then((response) => {
-        content.innerText = response.data
-    })
-    .catch(() => {
-        title.innerText = 'Erro ao Carregar Anime'
-    })
+.then((json) => console.log(json))
+.catch((error) => console.log(error))
