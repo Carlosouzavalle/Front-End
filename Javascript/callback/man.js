@@ -1,6 +1,5 @@
 // Callbacks
 
-
 const loginUser = (email, password, onSucess, onError) => {
     setTimeout(() => {
         const error = false
