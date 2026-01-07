@@ -1,9 +1,10 @@
-const Teste = () => {
+function Teste(props) {
     return (
-        <div>
-            <h1>Teste Component</h1>
+        <div className="teste">
+            <h1>{props.titulo}</h1>
+            <p>{props.titulo2}</p>
         </div>
-    );
+    )
 }
 
-export default Teste;  
+export default Teste;
