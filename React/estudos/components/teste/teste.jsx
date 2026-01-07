@@ -6,4 +6,4 @@ const Teste = () => {
     );
 }
 
-export default Teste;
+export default Teste;  
