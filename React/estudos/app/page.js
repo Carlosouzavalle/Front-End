@@ -1,15 +1,19 @@
-import Titulo from '@/components/shared/titulo.component';
+import Titulo from '@/app/components/shared/titulo.component';
 // import Contador from '@/components/exemplos/contador/contador.component';
-import Teste from '@/components/teste/teste.jsx';
-import Contador2 from '@/components/exemplos/contador/contador2.component';
+import Teste from '@/app/components/teste/teste.jsx';
+import Pagina from '@/app/components/shared/pagina.component.jsx';
 
 export default function Home() {
   return (
-    <div className="flex flex-col p-8 gap-8">
-        <Teste titulo="Home Page" titulo2="Subtítulo da Home Page"/>
-        <Contador2 />
-    </div>
-  );
+    <Pagina titulo="Página de Exemplo" subtitulo="Bem vindo à página de exemplo">
+      <span>Conteúdo da página de exemplo</span>
+    </Pagina>
+  )
+  // <div className="flex flex-col p-8 gap-8">
+  //     <Teste titulo="Home Page" titulo2="Subtítulo da Home Page"/>
+  //     <Contador2 />
+  // </div>
+
 }
 
 
