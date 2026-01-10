@@ -7,3 +7,5 @@ let resultado = qtd_dias * valor_diario_carro
 let resultado2 = qtd_km * valor_km_carro
 let resultado3 = resultado + resultado2
 console.log(`O valor a pagar é R$${resultado3}`)
+
+

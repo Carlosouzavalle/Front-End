@@ -18,4 +18,4 @@ informações sobre ela
 15 faça um programa que pergunte a qtd de km percodido por 
 um carro alugado e a qtd de dias pelo qual foi alugado.
 Calcule o preço a pagar, sabendo que o carro custa 60R$ por dia
-e R$0,15 por km percorido.
+e R$0,15 por km percorido
