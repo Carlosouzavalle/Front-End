@@ -14,8 +14,14 @@ informações sobre ela
 12  Calculando Descontos
 13 reajuste salario de 15%
 14 conversor de temperatura
-
 15 faça um programa que pergunte a qtd de km percodido por 
 um carro alugado e a qtd de dias pelo qual foi alugado.
 Calcule o preço a pagar, sabendo que o carro custa 60R$ por dia
 e R$0,15 por km percorido
+16 Quebrando um número ex: 9.123 mostre 9
+17 Catetos e Hipotenusa
+18 Seno, Cosseno e Tangente
+19 Sorteando um item na lista
+20 Sorteando uma ordem na lista
+21 tocando um mp3
+22 Analisador de Textos ex: 
