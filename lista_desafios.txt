@@ -24,4 +24,6 @@ e R$0,15 por km percorido
 19 Sorteando um item na lista
 20 Sorteando uma ordem na lista
 21 tocando um mp3
-22 Analisador de Textos ex: 
+22 Analisador de Textos ex: por o nome em maiusculo e minusculo, qtd de caracteres
+qual o primeiro nome e qtdde letras
+23  Separando dígitos de um número
