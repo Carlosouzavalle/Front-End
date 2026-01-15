@@ -26,4 +26,6 @@ e R$0,15 por km percorido
 21 tocando um mp3
 22 Analisador de Textos ex: por o nome em maiusculo e minusculo, qtd de caracteres
 qual o primeiro nome e qtdde letras
-23  Separando dígitos de um número
+23  Separando dígitos de um número ex: unidade, dezena, centena, milhar
+24 Verificando as primeiras letras de um texto ex: a palavra tem que coomeçar com 
+santo para ser verdadeiro caso contrario retorna false
