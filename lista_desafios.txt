@@ -29,3 +29,4 @@ qual o primeiro nome e qtdde letras
 23  Separando dígitos de um número ex: unidade, dezena, centena, milhar
 24 Verificando as primeiras letras de um texto ex: a palavra tem que coomeçar com 
 santo para ser verdadeiro caso contrario retorna false
+25 Procurando uma string dentro de outra
