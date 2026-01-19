@@ -31,3 +31,4 @@ qual o primeiro nome e qtdde letras
 santo para ser verdadeiro caso contrario retorna false
 25 Procurando uma string dentro de outra
 26 Primeira e última ocorrência de uma string 
+27 Primeiro e último nome de uma pessoa
