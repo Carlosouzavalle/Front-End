@@ -1,12 +1,15 @@
+
 import Titulo from '@/app/components/shared/titulo.component';
 // import Contador from '@/components/exemplos/contador/contador.component';
 import Teste from '@/app/components/teste/teste.jsx';
 import Pagina from '@/app/components/shared/pagina.component.jsx';
+import UseEffect2 from '@/app/components/shared/UseEffect.component.jsx';
 
 export default function Home() {
   return (
     <Pagina titulo="Página de Exemplo" subtitulo="Bem vindo à página de exemplo">
       <span>Conteúdo da página de exemplo</span>
+      <UseEffect2 />
     </Pagina>
   )
   // <div className="flex flex-col p-8 gap-8">
