@@ -24,7 +24,7 @@ function Contador2(props) {
                 <h1 className="text-5xl font-black text-black">{valor}</h1>
             </div>
             <div className="flex gap-8 justify-center ">
-                <button onClick={adicionar} className="bg-blue-600 p-4 rounded-md hover:bg-blue-950">Adicionar</button>
+                <button onClick={adicionar} className="bg-blue-600 p-4  rounded-md hover:bg-blue-950">Adicionar</button>
                 <button onClick={subtrair} className="bg-red-600 p-4 rounded-md hover:bg-red-950">Subtrair</button>
             </div>        
     </div>
