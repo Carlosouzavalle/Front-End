@@ -23,8 +23,6 @@ function useCustomEffect() {
 
 export default useCustomEffect;
 
-
-
 // 🧠 O que é o useEffect
 
 // O useEffect serve para executar efeitos colaterais em componentes React.
