@@ -1,0 +1,3 @@
+o next o caminho relativo não funciona então temos que mover a pasta imagem para dentro da pasta
+public, tudo que esta dentro dela vira raiz do projeto
+/ aponta direto para public 
