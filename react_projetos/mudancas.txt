@@ -1,0 +1,11 @@
+Para amanha
+
+de alguma forma reutilizar components e não ficar repetindo eles.
+reutilizar components de titulos 
+tentar de alguma forma melhorar a parte de css
+
+
+Futuras
+
+implementar icones (usar alguma lib)
+movimentação do carrousel (usar alguma lib)

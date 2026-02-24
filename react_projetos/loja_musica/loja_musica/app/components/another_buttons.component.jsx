@@ -1,7 +1,7 @@
 function AnotherButtons() {
     return (
-        <section class="btn_wrapper">
-            <div class="btn_banners">
+        <section className="btn_wrapper">
+            <div className="btn_banners">
                 <div>
                     <button>Ver instrumentos</button>
                 </div>

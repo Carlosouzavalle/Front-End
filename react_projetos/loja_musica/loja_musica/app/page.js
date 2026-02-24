@@ -8,7 +8,9 @@ import RandomText from "./components/random_text.component";
 import AnotherButtons from "./components/another_buttons.component";
 import CarrouselItems from "./components/carrousel_items.component";
 import FixedInstrumentsText from "./components/fixed_instruments_text.component";
-
+import CategoryInstruments from "./components/category_instruments.component";
+import Category_text from "./components/category_text.component";
+import Courses from "./components/courses.component";
 
 
 export default function Home() {
@@ -20,6 +22,11 @@ export default function Home() {
       <AnotherButtons />
       <FixedInstrumentsText />
       <CarrouselItems />
+      <CarrouselItems />
+      <CarrouselItems />
+      <Category_text />
+      <CategoryInstruments />
+      <Courses />
     </main>
   );
 }
