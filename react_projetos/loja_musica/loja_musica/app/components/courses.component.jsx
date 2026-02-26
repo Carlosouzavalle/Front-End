@@ -2,10 +2,10 @@ function courses() {
     return ( 
     <section className="course_section">
         <div>
-            <div class="course_img">
+            <div className="course_img">
                 <img src="/imgs/guitarra.jpg" alt="Curso de Violão" />
             </div>
-            <div class="course_info">
+            <div className="course_info">
                 <h4>Curso de Violão</h4>
                 <section className="comments">
                     <div>

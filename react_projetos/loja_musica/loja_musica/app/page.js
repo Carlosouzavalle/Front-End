@@ -11,6 +11,9 @@ import FixedInstrumentsText from "./components/fixed_instruments_text.component"
 import CategoryInstruments from "./components/category_instruments.component";
 import Category_text from "./components/category_text.component";
 import Courses from "./components/courses.component";
+import Courses_text from "./components/courses_text.component";
+import Sponrs from "./components/sponrs.component";
+import Footer from "./components/footer.component";
 
 
 export default function Home() {
@@ -26,7 +29,10 @@ export default function Home() {
       <CarrouselItems />
       <Category_text />
       <CategoryInstruments />
+      <Courses_text />
       <Courses />
+      <Sponrs />
+      <Footer />
     </main>
   );
 }
