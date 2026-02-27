@@ -1,8 +1,8 @@
 function footer() {
     return (
-        <footer class="footer">
-        <div class="container">
-            <div class="footer_info">
+        <footer className="footer">
+        <div className="container">
+            <div className="footer_info">
                 <h3>Music House</h3>
                 <p>Endereço: Rua dos Instrumentos, 123 - Cidade Musical</p>
                 <p>Telefone: (11) 1234-5678</p>
@@ -11,7 +11,7 @@ function footer() {
                 </p>
             </div>
             
-            <div class="footer_social">
+            <div className="footer_social">
                 <h4>Siga-nos</h4>
                 <ul>
                     <li><a href="#">Facebook</a></li>
@@ -21,7 +21,7 @@ function footer() {
                 </ul>
             </div>
         </div>
-        <div class="footer_copy">
+        <div className="footer_copy">
             <p>&copy; 2024 Music House. Todos os direitos reservados.</p>
         </div>
     </footer>

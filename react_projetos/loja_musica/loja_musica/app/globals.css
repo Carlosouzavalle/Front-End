@@ -87,10 +87,9 @@ body {
 @layer banners {
   .banners_container {
     position: relative;
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     overflow: hidden;
-    border: 3px solid #ccc;
   }
 
   .banners {
@@ -98,20 +97,15 @@ body {
     gap: 15px;
     transition: transform 0.5s ease;
     justify-content: flex-start;
-    /* 🔥 */
     width: max-content;
   }
 
-  .banners div {
-    min-width: 800px;
-  }
 
   .banners img {
     width: 1000px;
     height: 500px;
     border-radius: 8px;
   }
-
 
   .btn_next {
     position: absolute;
