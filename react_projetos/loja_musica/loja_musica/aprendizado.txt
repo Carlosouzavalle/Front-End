@@ -1,3 +1,21 @@
 o next o caminho relativo não funciona então temos que mover a pasta imagem para dentro da pasta
 public, tudo que esta dentro dela vira raiz do projeto
 / aponta direto para public 
+
+
+<div className="banners">
+  <SwiperSlide>...</SwiperSlide>
+</div>
+❌ O Swiper não pode ter uma <div> envolvendo os slides.
+Ele precisa receber SwiperSlide diretamente como filhos
+
+🧠 Por quê?
+Internamente o Swiper cria:
+
+<div class="swiper-wrapper">
+   <div class="swiper-slide"></div>
+</div>
+
+Quando você coloca uma <div> no meio, ele quebra a estrutura interna.
+
+Não utilizar muito codigo dentro do globals apenas em ultimo caso se você tiver usando tailwind.

@@ -1,18 +1,26 @@
+import { FaSearch } from "react-icons/fa";
+
 const Header = () => {
     return (
-        <header className="header">
-            <div className="container">
+        <header className="bg-red-500">
+            <div className="flex justify-between items-center p-8">
+
                 <div className="logo">
-                    <div>
-                        <h2>Music</h2>
+                    <h2>Music</h2>
+                    <h2>House</h2>
+                </div>
+
+                <div className="search_container">
+                    <div className="search_box">
+                        <input type="search" placeholder="Buscar instrumentos..." />
                     </div>
-                    <div>
-                        <h2>House</h2>
+                    <div className="btn_div">
+                        <button className="btn_search">
+                            <FaSearch />
+                        </button>
                     </div>
                 </div>
-                <div className="search_box">
-                    <input type="search" placeholder="Buscar instrumentos..." />
-                </div>
+
                 <nav className="nav_container">
                     <ul className="nav_links">
                         <li><a href="#">Inicio</a></li>
@@ -23,9 +31,9 @@ const Header = () => {
                         <li className="buy_now"><a href="#">Comprar Agora</a></li>
                     </ul>
                 </nav>
+
             </div>
         </header>
-
     );
 };
 
