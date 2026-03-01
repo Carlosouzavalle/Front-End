@@ -19,3 +19,16 @@ Internamente o Swiper cria:
 Quando você coloca uma <div> no meio, ele quebra a estrutura interna.
 
 Não utilizar muito codigo dentro do globals apenas em ultimo caso se você tiver usando tailwind.
+
+
+Isso é erro clássico do PowerShell, não do pnpm 👇
+O Windows bloqueia execução de scripts .ps1 por segurança.
+O pnpm roda via pnpm.ps1
+
+Rodar o seguinte comando noo PowerShell Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+🔎 O que isso faz?
+RemoteSigned significa:
+Scripts locais → podem rodar
+Scripts baixados da internet → precisam ser assinados
+É a configuração mais usada para dev.

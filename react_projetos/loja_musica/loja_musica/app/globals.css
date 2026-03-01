@@ -26,6 +26,7 @@ html body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 
 @layer header {
@@ -72,28 +73,8 @@ html body {
     gap: 10px;
 
   }
-
-  .nav_links {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-  }
-
-  .nav_links li a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-
-  .nav_links li a:hover {
+  .nav-links li:hover {
     color: #007BFF;
-  }
-
-  .buy_now a {
-    background-color: #FF5733;
-    color: #ffffff;
-    padding: 8px 12px;
-    border-radius: 4px;
   }
 }
 
@@ -221,6 +202,7 @@ html body {
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    background-color: #1A1A1A;
   }
 
   .container_instrumentos img {
@@ -232,12 +214,12 @@ html body {
 
   .container_instrumentos h4 {
     margin: 10px 0;
-    color: #333;
+    color: #FFF;
   }
 
   .container_instrumentos p {
-    color: #007BFF;
-    font-size: 1.2rem;
+    color: #E10600;
+    font-size: 1.4rem;
     margin-bottom: 10px;
   }
 
@@ -282,6 +264,8 @@ html body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-color: #1A1A1A;
+
   }
 
   .category_instruments img {
@@ -431,20 +415,21 @@ html body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 10px;
+    
+
+    border-radius: 20px;
     flex-direction: column;
-    padding: 20px;
-    width: 500px;
+    padding-top: 20px;
+    width: 300px;
     height: 400px;
+    background-color: #1A1A1A;
+      
   }
 
   .sponsors_logos img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-    margin: 0 15px;
+    height: 90%;
+    margin: 0 auto;
   }
 
   .sponsors_logos h3 {
