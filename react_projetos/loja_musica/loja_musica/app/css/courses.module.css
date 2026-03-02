@@ -1,0 +1,110 @@
+.course_title {
+    text-align: center;
+    margin: 50px 0 20px 0;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8em;
+}
+
+.course_section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.course_section div {
+    min-width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.course_section img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.course_section h4 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.course_section p {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.course_section button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course_section button:hover {
+    background-color: #218838;
+}
+
+.course_section .course_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_courses {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.btn_agd_Aula button,
+.btn_cnh_planos button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.btn_agd_Aula button:hover,
+.btn_cnh_planos button:hover {
+    background-color: #023368;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.comments img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid black;
+
+}
+
+.comments p {
+    font-style: italic;
+    color: #555;
+    margin-left: 20px;
+}

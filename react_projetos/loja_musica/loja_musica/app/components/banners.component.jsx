@@ -1,4 +1,5 @@
 "use client"
+import bannersModule from '@/app/css/banners.module.css'
 
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay } from "swiper/modules"
@@ -6,7 +7,7 @@ import "swiper/css"
 
 function Banners() {
   return (
-    <section className="banners_container">
+    <section className={bannersModule.banners_container}>
       <Swiper
         modules={[Autoplay]}
         spaceBetween={10}

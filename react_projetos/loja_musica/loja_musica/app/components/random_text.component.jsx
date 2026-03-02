@@ -1,6 +1,8 @@
+import containerInstruments from '@/app/css/containerInstruments.module.css'
+
 function TextRandom() {
     return (
-        <div className="random_tittles">
+        <div className={containerInstruments.random_tittles}>
             <div>
                 <h3>O som da sua paixão começa aqui</h3>
             </div>

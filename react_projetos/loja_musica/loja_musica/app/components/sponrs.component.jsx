@@ -1,9 +1,11 @@
+import sponrsModule from '@/app/css/sponrs.module.css';
+
 function sponrs() {
     return (
-        <section className="our_sponsors">
+        <section className={sponrsModule.our_sponsors}>
             <div>
                 <h2>Nossos Parceiros</h2>
-                <div className="sponsors_logos">
+                <div className={sponrsModule.sponsors_logos}>
                     <div>
                         <img src="/imgs/guitarra.jpg" alt="Patrocinador 1"/>
                             <h3>Fender</h3>

@@ -1,13 +1,15 @@
+import coursesModule from '@/app/css/courses.module.css';
+
 function courses() {
     return ( 
-    <section className="course_section">
+    <section className={coursesModule.course_section}>
         <div>
-            <div className="course_img">
+            <div className={coursesModule.course_img}>
                 <img src="/imgs/guitarra.jpg" alt="Curso de Violão" />
             </div>
-            <div className="course_info">
+            <div className={coursesModule.course_info}>
                 <h4>Curso de Violão</h4>
-                <section className="comments">
+                <section className={coursesModule.comments}>
                     <div>
                         <img src="#" alt="perfil1" />
                         <p>"Excelente atendimento e variedade de produtos!" - João S.</p>

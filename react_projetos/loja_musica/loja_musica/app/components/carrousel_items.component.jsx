@@ -1,7 +1,8 @@
+import containerInstruments from '@/app/css/containerInstruments.module.css'
 
 function CarrouselItems() {
     return (
-        <section className="container_instrumentos">
+        <section className={containerInstruments.container_instrumentos}>
             <div>
                 <img src="/imgs/guitarra.jpg" alt="Guitarra" />
                 <h4>Guitarra Elétrica</h4>

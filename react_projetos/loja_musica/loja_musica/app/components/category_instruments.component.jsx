@@ -1,7 +1,9 @@
+import category from '@/app/css/category.module.css';
+    
 function category_instruments() {
     return (
     <section>
-        <div className="category_instruments">
+        <div className={category.category_instruments}>
             <div>
                 <img src="/imgs/guitarra.jpg" alt="Guitarra" />
                 <h4>Guitarras</h4>

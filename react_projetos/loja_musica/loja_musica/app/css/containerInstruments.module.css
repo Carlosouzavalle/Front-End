@@ -1,0 +1,66 @@
+.destaque_txt {
+    text-align: center;
+    margin: 50px 0 50px 0;
+    color: #fffdfd;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+}
+
+.random_tittles h3 {
+    text-align: center;
+    margin: 15px 0;
+    color: #fffdfd;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8em;
+}
+
+.container_instrumentos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.container_instrumentos div {
+    min-width: 250px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #1A1A1A;
+}
+
+.container_instrumentos img {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container_instrumentos h4 {
+    margin: 10px 0;
+    color: #FFF;
+}
+
+.container_instrumentos p {
+    color: #E10600;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.container_instrumentos button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container_instrumentos button:hover {
+    background-color: #218838;
+}

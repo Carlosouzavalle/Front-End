@@ -1,7 +1,9 @@
+import anotherButtonsModule from '@/app/css/anotherButtons.module.css';
+
 function AnotherButtons() {
     return (
-        <section className="btn_wrapper">
-            <div className="btn_banners">
+        <section className={anotherButtonsModule.btn_wrapper}>
+            <div className={anotherButtonsModule.btn_banners}>
                 <div>
                     <button>Ver instrumentos</button>
                 </div>

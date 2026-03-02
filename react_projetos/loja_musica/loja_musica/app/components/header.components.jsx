@@ -1,28 +1,28 @@
 import { FaSearch } from "react-icons/fa";
+import headerModule from '@/app/css/header.module.css';
 
 const Header = () => {
     return (
-        <header className="bg-[#0F0F0F]">
+        <header className={headerModule.header}>
             <div className="flex justify-between items-center p-8">
-
-                <div className="logo">
+                <div className={headerModule.logo}>
                     <h2>Music</h2>
                     <h2>House</h2>
                 </div>
 
-                <div className="search_container">
-                    <div className="search_box ">
+                <div className={headerModule.search_container}>
+                    <div className={headerModule.search_box}>
                         <input type="search" placeholder="Buscar instrumentos..." />
                     </div>
                     <div className="btn_div">
-                        <button className="btn_search">
+                        <button className={headerModule.btn_search}>
                             <FaSearch />
                         </button>
                     </div>
                 </div>
 
-                <nav className="nav_container">
-                    <ul className="nav-links flex gap-3 justify-center items-center">
+                <nav className={headerModule.nav_links}>
+                    <ul className="flex gap-4 justify-center items-center text-[1.3rem]">
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Instrumentos</a></li>
                         <li><a href="#">Carrinho</a></li>

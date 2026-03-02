@@ -1,0 +1,36 @@
+.title_category {
+    text-align: center;
+    margin: 50px 0 20px 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8em;
+}
+
+.category_instruments {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.category_instruments div {
+    min-width: 250px;
+    border: 1px solid #ccc;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #1A1A1A;
+
+}
+
+.category_instruments img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
