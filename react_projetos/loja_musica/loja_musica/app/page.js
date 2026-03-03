@@ -13,7 +13,7 @@ import Category_text from "@/app/components/Category_text.component";
 import CategoryInstruments from "@/app/components/Category_instruments.component";
 import Courses_text from "@/app/components/Courses_text.component";
 import Courses from "@/app/components/Courses.component";
-import Sponrs from "@/app/components/Sponrs.component";
+import Sponsors from "@/app/components/Sponrs.component";
 import Footer from "@/app/components/Footer.component";
 
 
@@ -32,7 +32,7 @@ export default function Home() {
       <CategoryInstruments />
       <Courses_text />
       <Courses />
-      <Sponrs />
+      <Sponsors />
       <Footer />
     </main>
   );
