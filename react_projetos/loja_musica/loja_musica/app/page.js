@@ -3,19 +3,18 @@ import Image from "next/image";
 import React from "react";
 
 // components
-import Header from "@/app/components/header.components";
-import RandomText from "@/app/components/Random_text.component";
-import Banners from "@/app/components/Banners.component";
-import AnotherButtons from "@/app/components/Another_buttons.component";
-import FixedInstrumentsText from "@/app/components/Fixed_instruments_text.component";
-import CarrouselItems from "@/app/components/Carrousel_items.component";
-import Category_text from "@/app/components/Category_text.component";
-import CategoryInstruments from "@/app/components/Category_instruments.component";
-import Courses_text from "@/app/components/Courses_text.component";
-import Courses from "@/app/components/Courses.component";
-import Sponsors from "@/app/components/Sponrs.component";
-import Footer from "@/app/components/Footer.component";
-
+import Header from "@/app/components/Header";
+import RandomText from "@/app/components/RandomText";
+import Banners from "@/app/components/Banners";
+import AnotherButtons from "@/app/components/AnotherButtons";
+import FixedInstrumentsText from "@/app/components/FixedInstrumentsText";
+import CarrouselItems from "@/app/components/CarrouselItems";
+import CategoryText from "@/app/components/CategoryText";
+import CategoryInstruments from "@/app/components/CategoryInstruments";
+import CoursesText from "@/app/components/CoursesText";
+import Courses from "@/app/components/Courses";
+import Sponsors from "@/app/components/Sponsors";
+import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
@@ -28,9 +27,9 @@ export default function Home() {
       <CarrouselItems />
       <CarrouselItems />
       <CarrouselItems />
-      <Category_text />
+      <CategoryText />
       <CategoryInstruments />
-      <Courses_text />
+      <CoursesText />
       <Courses />
       <Sponsors />
       <Footer />
