@@ -1,3 +1,4 @@
+"use client"
 import containerInstruments from '@/app/css/containerInstruments.module.css'
 
 function TextRandom() {

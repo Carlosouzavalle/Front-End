@@ -12,7 +12,7 @@ const Header = () => {
 
                 <div className={headerModule.search_container}>
                     <div className={headerModule.search_box}>
-                        <input type="search" placeholder="Buscar instrumentos..." />
+                        <input className="input" type="search" placeholder="Buscar instrumentos..." />
                     </div>
                     <div className="btn_div">
                         <button className={headerModule.btn_search}>

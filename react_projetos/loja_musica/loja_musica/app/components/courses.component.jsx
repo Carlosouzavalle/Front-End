@@ -1,3 +1,4 @@
+"use client"
 import coursesModule from '@/app/css/courses.module.css';
 
 function courses() {

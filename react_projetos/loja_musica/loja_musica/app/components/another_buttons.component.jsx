@@ -1,4 +1,6 @@
+"use client";
 import anotherButtonsModule from '@/app/css/anotherButtons.module.css';
+
 
 function AnotherButtons() {
     return (

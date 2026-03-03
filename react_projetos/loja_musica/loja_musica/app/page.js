@@ -1,19 +1,20 @@
-import Image from "next/image";
 
+import Image from "next/image";
+import React from "react";
 
 // components
-import Header from "./components/header.components";
-import Banners from "./components/banners.component";
-import RandomText from "./components/random_text.component";
-import AnotherButtons from "./components/another_buttons.component";
-import CarrouselItems from "./components/carrousel_items.component";
-import FixedInstrumentsText from "./components/fixed_instruments_text.component";
-import CategoryInstruments from "./components/category_instruments.component";
-import Category_text from "./components/category_text.component";
-import Courses from "./components/courses.component";
-import Courses_text from "./components/courses_text.component";
-import Sponrs from "./components/sponrs.component";
-import Footer from "./components/footer.component";
+import Header from "@/app/components/header.components";
+import RandomText from "@/app/components/Random_text.component";
+import Banners from "@/app/components/Banners.component";
+import AnotherButtons from "@/app/components/Another_buttons.component";
+import FixedInstrumentsText from "@/app/components/Fixed_instruments_text.component";
+import CarrouselItems from "@/app/components/Carrousel_items.component";
+import Category_text from "@/app/components/Category_text.component";
+import CategoryInstruments from "@/app/components/Category_instruments.component";
+import Courses_text from "@/app/components/Courses_text.component";
+import Courses from "@/app/components/Courses.component";
+import Sponrs from "@/app/components/Sponrs.component";
+import Footer from "@/app/components/Footer.component";
 
 
 export default function Home() {

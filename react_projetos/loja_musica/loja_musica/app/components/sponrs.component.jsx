@@ -1,3 +1,4 @@
+"use client"
 import sponrsModule from '@/app/css/sponrs.module.css';
 
 function sponrs() {

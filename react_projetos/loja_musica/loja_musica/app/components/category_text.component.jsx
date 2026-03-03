@@ -1,3 +1,4 @@
+"use client"
 import category from '@/app/css/category.module.css';
 
 function category_text() {

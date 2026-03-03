@@ -16,9 +16,9 @@
 
 .container_instrumentos {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
     margin: 0 auto;
     overflow: hidden;
     padding-bottom: 40px;
