@@ -5,7 +5,7 @@
     overflow: hidden;
     /* border: 2px solid #270303; */
     z-index: 2;
-    bottom: 120px;
+    top: 20px;
 }
 
 .btn_banners {

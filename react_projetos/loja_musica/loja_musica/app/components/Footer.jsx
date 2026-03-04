@@ -1,8 +1,8 @@
 function footer() {
     return (
-        <footer className="flex direction-column bg-red-500 text-white items-center justify-center p-8">
+        <footer className="flex direction-column bg-[#333] text-white items-center justify-center p-8">
             
-            <div className="flex direction-column justify-between items-center p-8 gap-50">
+            <div className="flex direction-column justify-between items-center  gap-50">
                 <div className="text-2xl">
                     <h3>Music House</h3>
                     <p>Endereço: Rua dos Instrumentos, 123 - Cidade Musical</p>

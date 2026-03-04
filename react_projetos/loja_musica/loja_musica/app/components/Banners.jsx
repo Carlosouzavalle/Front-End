@@ -14,7 +14,7 @@ function Banners() {
         slidesPerView={1}
         loop={true}
         autoplay={{
-          delay: 1000,
+          delay: 3000,
           disableOnInteraction: true,
         }}
         className="banners"

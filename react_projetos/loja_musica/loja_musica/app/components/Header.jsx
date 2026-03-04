@@ -12,9 +12,9 @@ const Header = () => {
 
                 <div className={headerModule.search_container}>
                     <div className={headerModule.search_box}>
-                        <input className="input" type="search" placeholder="Buscar instrumentos..." />
+                        <input className="p-3 w-md " type="search" placeholder="Buscar instrumentos..." />
                     </div>
-                    <div className="btn_div">
+                    <div className={headerModule.btn_container}>
                         <button className={headerModule.btn_search}>
                             <FaSearch />
                         </button>
@@ -22,7 +22,7 @@ const Header = () => {
                 </div>
 
                 <nav className={headerModule.nav_links}>
-                    <ul className="flex gap-4 justify-center items-center text-[1.3rem]">
+                    <ul className={headerModule.nav_list}>
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Instrumentos</a></li>
                         <li><a href="#">Carrinho</a></li>
