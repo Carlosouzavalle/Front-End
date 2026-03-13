@@ -13,6 +13,7 @@
     width: 1200px;
     margin: 0 auto;
     overflow: hidden;
+
 }
 
 .course_section div {
@@ -21,6 +22,7 @@
     flex-direction: row;
     align-items: center;
     padding: 10px;
+    
 }
 
 .course_section img {
@@ -28,6 +30,7 @@
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
+    
 }
 
 .course_section h4 {
@@ -84,27 +87,4 @@
 .btn_agd_Aula button:hover,
 .btn_cnh_planos button:hover {
     background-color: #023368;
-}
-
-.comments {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-.comments img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-right: 10px;
-    border: 1px solid black;
-
-}
-
-.comments p {
-    font-style: italic;
-    color: #555;
-    margin-left: 20px;
 }
