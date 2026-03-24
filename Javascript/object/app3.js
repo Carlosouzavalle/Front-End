@@ -17,8 +17,8 @@ console.log(cliente['nome'])
 
 //===========================================================================
 // também podemos add propriedades
-// cliente.telefone = 548416461
-// console.log(cliente.telefone)
+cliente.telefone = 548416461
+console.log(cliente.telefone)
 
 
 //===========================================================================

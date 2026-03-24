@@ -15,32 +15,32 @@ console.log(frutas.includes('maç'))
 // Retorna o índice do primeiro elemento encontrado — ou -1 se não achar.
 // Serve pra localizar onde o valor está no array.
 
-// let numeros = [1,2,3,4,5]
-// console.log(numeros.indexOf(2))
+let numeros = [1,2,3,4,5]
+console.log(numeros.indexOf(2))
 
 //===================================================================== 
 
 // 🔁 3. lastIndexOf() → índice da última ocorrência
 // Se o valor aparece várias vezes, esse método retorna o último índice.
 
-// console.log(numeros.lastIndexOf(3))
+console.log(numeros.lastIndexOf(3))
 
 //======================================================================
 // 🧠 4. find() → encontra o primeiro elemento que cumpre uma condição
 
-// let idades = [15,16,17,18,19]
+let idades = [15,16,17,18,19]
 
-// let maiorDeIdade = idades.find(idade => idade >= 18)
-// console.log(maiorDeIdade)
+let maiorDeIdade = idades.find(idade => idade >= 18)
+console.log(maiorDeIdade)
 
 
 //======================================================================
 // 🧮 5. findIndex() → encontra o índice do primeiro elemento que cumpre a condição
 
-// let idades = [15,16,17,18,19]
+let idades = [15,16,17,18,19]
 
-// let maiorDeIdade = idades.findIndex(idade => idade >= 18)
-// console.log(maiorDeIdade)
+let maiorDeIdade = idades.findIndex(idade => idade >= 18)
+console.log(maiorDeIdade)
 
 
 //==========================================================================

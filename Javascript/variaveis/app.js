@@ -17,21 +17,20 @@ const NOME_CLIENTE = "carlos"
 console.log(NOME_CLIENTE)
 
 
-/*
-    nome_cliente = snakecase
+    // nome_cliente = snakecase
 
-    nomeCliente = camelcase
+    // nomeCliente = camelcase
 
-    ValorFinal = PascalCase
+    // ValorFinal = PascalCase
 
-    idade-do-amigo = kebabcase
+    // idade-do-amigo = kebabcase
 
-    var é uma maneira ainda utilizavel de declarar variaveis, porém antiga.
+    // var é uma maneira ainda utilizavel de declarar variaveis, porém antiga.
 
-    Como conveção as constantes são declaradas com letras MAIUSCULAS
-    e seu valor não pode ser modificado
+    // Como conveção as constantes são declaradas com letras MAIUSCULAS
+    // e seu valor não pode ser modificado
 
 
-    O kebab-case (por exemplo: meu-nome, numero-total, valor-final) não funciona em JavaScript para nomes de variáveis, funções, classes etc. porque o sinal de menos (-) é interpretado como o operador de subtração.
+    // O kebab-case (por exemplo: meu-nome, numero-total, valor-final) não funciona em JavaScript para nomes de variáveis, funções, classes etc. porque o sinal de menos (-) é interpretado como o operador de subtração.
 
-*/
+

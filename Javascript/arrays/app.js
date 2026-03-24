@@ -44,9 +44,9 @@ console.log(clientes[1].nome)
 
 // se eu quiser iterar por todos os valores do array
 
-// clientes.forEach(cliente => {
-//     console.log(`O(A) cliente ${cliente.nome} tem ${cliente.idade} anos de idade`)
-// })
+clientes.forEach(cliente => {
+    console.log(`O(A) cliente ${cliente.nome} tem ${cliente.idade} anos de idade`)
+})
 
 // ou
 
