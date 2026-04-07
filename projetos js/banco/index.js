@@ -6,7 +6,6 @@ class Conta {
         this.Idade = idade;
     }
 
-
     Mostrar_dados() {
         console.log(`Nome: ${this.Nome} Sexo: ${this.Sexo} Idade: ${this.Idade}`)
     }
@@ -15,14 +14,10 @@ class Conta {
 // aqui vai guarda valores de transações 
 class Transacoes extends Conta {
 
-
-
     constructor(nome, sexo, idade, saldo) {
         super(nome, sexo, idade)
         this._Saldo = saldo
     }
-
-
 
     Mostrar_saldo() {
         console.log(`Você tem R$: ${this._Saldo}`)
@@ -42,14 +37,19 @@ class Transacoes extends Conta {
         console.log(`Você depositou R$${valor}. Novo Saldo R$${this._Saldo}`)
     }
 
-}
+    Pix(valor) {
+        this._Saldo -= valor
+        console.log(`Você fez um Pix no valor de R$${valor} para (Alguem).`)
+    }
 
+}
 
 conta1 = new Transacoes("Carlos", "Masculino", 27, 2000)
 conta1.Mostrar_dados()
 conta1.Mostrar_saldo()
 conta1.Sacar(1000)
 conta1.Depositar(3000)
+conta1.Pix(200)
 
 
 
@@ -66,8 +66,6 @@ conta1.Depositar(3000)
 // Classe	Métodos disponíveis
 // Conta	Mostrar_dados
 // Transacoes	Mostrar_dados + Mostrar_saldo
-
-
 
 // 💡 Quando usar cada um
 
